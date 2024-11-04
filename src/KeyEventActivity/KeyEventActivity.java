@@ -47,10 +47,10 @@ public class KeyEventActivity extends JFrame{
 	}
 
 	public static void main(String[] args) {
-		KeyEventActivity app = new KeyEventActivity();
-		app.setContentPane(app.getPanel1());
-		app.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-		app.setSize(400,300);
-		app.setVisible(true);
+		KeyEventActivity kea = new KeyEventActivity();
+		kea.setContentPane(kea.getPanel1());
+		kea.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+		kea.setSize(400,300);
+		kea.setVisible(true);
 	}
 }

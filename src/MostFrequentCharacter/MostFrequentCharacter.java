@@ -55,4 +55,12 @@ public class MostFrequentCharacter extends JFrame{
 	public JPanel getPanel1(){
 		return panel1;
 	}
+
+	public static void main(String[] args) {
+		MostFrequentCharacter mfs = new MostFrequentCharacter();
+		mfs.setContentPane(mfs.getPanel1());
+		mfs.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+		mfs.setSize(300,300);
+		mfs.setVisible(true);
+	}
 }
